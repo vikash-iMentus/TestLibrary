@@ -7,7 +7,7 @@ public class ToasterMessage {
 
     public static void showingToast(Context c, String message){
 
-        Toast.makeText(c, message, Toast.LENGTH_SHORT).show();
+        Toast.makeText(c, message, Toast.LENGTH_LONG).show();
 
     }
 }
